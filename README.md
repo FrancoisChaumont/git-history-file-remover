@@ -5,7 +5,7 @@ Remove file from git history keeping historical changes.
 See details at https://rtyley.github.io/bfg-repo-cleaner.
 
 ## Requirements
-- download bfg: https://repo1.maven.org/maven2/com/madgag/bfg/1.13.0/bfg-1.13.0.jar
+- download bfg: https://repo1.maven.org/maven2/com/madgag/bfg/1.14.0/bfg-1.14.0.jar
 - install java jre
 
 ## Steps
@@ -14,3 +14,7 @@ See details at https://rtyley.github.io/bfg-repo-cleaner.
 3. move into repo directory
 4. strip out unwanted history
 5. push changes
+
+```shell
+/bin/bash remove-files-from-git-history.sh ACCOUNT REPOSITORY FILE
+```
